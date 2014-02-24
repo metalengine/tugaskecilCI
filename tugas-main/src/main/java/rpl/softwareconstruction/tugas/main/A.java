@@ -5,11 +5,20 @@
  */
 
 package rpl.softwareconstruction.tugas.main;
-
 /**
  *
- * @author Rian Andrian
+ * @author hastiie
  */
 public class A {
-    
+    public A() {
+		System.out.println("ctor-A");
+	}
+	
+	public void f() {
+		System.out.println("A");
+	}
+        /**
+     *
+     * @return
+     */
 }

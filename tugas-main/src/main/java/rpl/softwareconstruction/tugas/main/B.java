@@ -5,11 +5,11 @@
  */
 
 package rpl.softwareconstruction.tugas.main;
-
 /**
  *
- * @author Rian Andrian
+ * @author hastiie
  */
-public class B {
-    
+public interface B {
+	public void v();
 }
+
