@@ -9,7 +9,11 @@ package rpl.softwareconstruction.tugas.main;
 /**
  *
  * @author Rian Andrian
+ * @author Rickard Elsen
  */
 public class AllConst {
-    
+	public static final double PI = Math.PI;
+	public static final double RHO = 9.0;
+	public static final double EPSILON = 0.005;
+	public static final int N = 8; 
 }

@@ -9,7 +9,8 @@ package rpl.softwareconstruction.tugas.main;
 /**
  *
  * @author Rian Andrian
+ * @author Rickard Elsen
  */
-public class X {
-    
+public interface X {
+	public int w();  
 }

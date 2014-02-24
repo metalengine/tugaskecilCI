@@ -9,7 +9,12 @@ package rpl.softwareconstruction.tugas.main;
 /**
  *
  * @author Rian Andrian
+ * @author Rickard Elsen
  */
 public class P {
-    
+
+	public P() {
+		System.out.println("ctor-P");
+	}
+   
 }
