@@ -8,6 +8,7 @@ package rpl.softwareconstruction.tugas.main;
 /**
  *
  * @author hastiie
+ * akber
  */
 public class ABB extends AB implements B {
 
