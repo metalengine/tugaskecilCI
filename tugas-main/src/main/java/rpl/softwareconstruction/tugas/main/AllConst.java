@@ -7,7 +7,7 @@
 package rpl.softwareconstruction.tugas.main;
 
 /**
- *
+ * Kelas ini adalah kelas yang menampung seluruh konstanta
  * @author Rian Andrian
  * @author Rickard Elsen
  */
