@@ -1,0 +1,91 @@
+Started by user anonymous
+Building in workspace /var/lib/jenkins/jobs/Tugas Kecil CI/workspace
+Cloning the remote Git repository
+Cloning repository https://github.com/metalengine/tugaskecilCI
+Fetching upstream changes from https://github.com/metalengine/tugaskecilCI
+Fetching upstream changes from https://github.com/metalengine/tugaskecilCI
+Checking out Revision 7cdba33513b90170512e90c0b0fbaadc7f7120ea (origin/master)
+First time build. Skipping changelog.
+Parsing POMs
+Discovered a new module rpl.softwareconstruction:tugaskecilCI tugaskecilCI
+Discovered a new module rpl.softwareconstruction:tugas-main tugas-main
+Modules changed, recalculating dependency graph
+[workspace] $ /usr/local/jdk1.7.0_21/bin/java -cp /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.4.jar:/usr/share/maven/boot/plexus-classworlds.jar:/usr/share/maven/conf/logging jenkins.maven3.agent.Maven31Main /usr/share/maven /tmp/jetty-0.0.0.0-8080-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.33.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 51103
+<===[JENKINS REMOTING CAPACITY]===>channel started
+Executing Maven:  -B -f /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/pom.xml install
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] tugaskecilCI
+[INFO] tugas-main
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building tugaskecilCI 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ tugaskecilCI ---
+[INFO] Installing /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/pom.xml to /home/ainx/.m2/repository/rpl/softwareconstruction/tugaskecilCI/1.0-SNAPSHOT/tugaskecilCI-1.0-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building tugas-main 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tugas-main ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ tugas-main ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tugas-main ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ tugas-main ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tugas-main ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running rpl.softwareconstruction.tugas.main.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[JENKINS] Recording test results
+[INFO] 
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ tugas-main ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ tugas-main ---
+[INFO] Installing /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/target/tugas-main-1.0-SNAPSHOT.jar to /home/ainx/.m2/repository/rpl/softwareconstruction/tugas-main/1.0-SNAPSHOT/tugas-main-1.0-SNAPSHOT.jar
+[INFO] Installing /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/pom.xml to /home/ainx/.m2/repository/rpl/softwareconstruction/tugas-main/1.0-SNAPSHOT/tugas-main-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default) @ tugas-main ---
+[INFO] logback-core-1.0.13.jar already exists in destination.
+[INFO] slf4j-api-1.7.5.jar already exists in destination.
+[INFO] junit-4.10.jar already exists in destination.
+[INFO] logback-classic-1.0.13.jar already exists in destination.
+[INFO] hamcrest-core-1.1.jar already exists in destination.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] tugaskecilCI ...................................... SUCCESS [2.426s]
+[INFO] tugas-main ........................................ SUCCESS [4.864s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.523s
+[INFO] Finished at: Mon Feb 24 20:43:39 WIT 2014
+[INFO] Final Memory: 14M/151M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/pom.xml to rpl.softwareconstruction/tugaskecilCI/1.0-SNAPSHOT/tugaskecilCI-1.0-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/pom.xml to rpl.softwareconstruction/tugas-main/1.0-SNAPSHOT/tugas-main-1.0-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/Tugas Kecil CI/workspace/tugas-main/target/tugas-main-1.0-SNAPSHOT.jar to rpl.softwareconstruction/tugas-main/1.0-SNAPSHOT/tugas-main-1.0-SNAPSHOT.jar
+channel stopped
+Finished: SUCCESS
