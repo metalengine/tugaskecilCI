@@ -16,6 +16,7 @@ public class A {
 	
 	public void f() {
 		System.out.println("A");
+                System.out.println("tambahan");
 	}
         /**
      *
