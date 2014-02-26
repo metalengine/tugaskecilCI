@@ -9,11 +9,16 @@ package rpl.softwareconstruction.tugas.main;
 import java.util.Vector;
 
 /**
- *
+ * Kelas ini adalah kelas yang menguji kelas-kelas lainnya
  * @author Rian Andrian
  * @author Rickard Elsen
  */
 public class MainProg implements X{
+    /*
+    * Method utama yang dipanggil
+    * Menginisialisasi kelas ABB,P,dan Q
+    * membuat vektor berukuran 10, mengisi vektor sesuai indeks dan mencetak ke layar
+    */
 	public static void main(String[] args) {
 		int N = 10;
 		ABB a = new ABB();

@@ -12,7 +12,9 @@ package rpl.softwareconstruction.tugas.main;
  * @author Rickard Elsen
  */
 public class P {
-
+/*
+    Konstruktor hanya mencetak string "ctor-P"
+    */
 	public P() {
 		System.out.println("ctor-P");
 	}
